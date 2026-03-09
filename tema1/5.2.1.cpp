@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -31,7 +30,6 @@ void resize() {
 
     delete[] vec;
     vec = newvec;
-    capacity *= 2;
 }
 
 void push_back(int x) {
@@ -41,8 +39,6 @@ void push_back(int x) {
     vec[size] = x;
     size++;
 }
-
-vector<int> v;
 
 int main() {
     int i, n;

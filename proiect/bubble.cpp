@@ -16,6 +16,10 @@ void bubble_sort(std::vector<int>& a) {
                 last = j;
             }
         idxmax = last;
+
+        if (idxmax == 0) {
+            break;
+        }
     }
 }
 

@@ -11,7 +11,7 @@ void insertbeg(int k) {
     n++;
 }
 
-void delbeg(int k) {
+void delbeg() {
     next[0] = next[next[0]];
 }
 

@@ -117,7 +117,7 @@ int main() {
 
     coutlista();
 
-    delbeg(0);
+    delbeg();
     delend();
     coutlista();
 

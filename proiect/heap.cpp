@@ -39,7 +39,7 @@ void downheap(std::vector<int>& a, int heapsize, int nod) {
 
 void build(std::vector<int>& a) {
     int i;
-    for (i = a.size()/2 - 1; i >= 0; --i) {
+    for (i = a.size()/2-1; i>=0; i--) {
         downheap(a, a.size(), i);
     }
 }
